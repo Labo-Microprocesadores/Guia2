@@ -40,7 +40,7 @@ void App_Init (void)
 void App_Run (void)
 {
     delayLoop(40000000UL);
-    gpioToggle(PIN_LED_BLUE);
+    gpioToggle(PIN_LED_GREEN);
 }
 
 
